@@ -9,32 +9,36 @@
     <title>calc</title>
 </head>
 <body>
-    <header class="header">
-        <div class="switch-field">
-		<input type="radio" id="radio-one" name="switch-one" value="yes" checked/>
-		<label for="radio-one"><i class="fa-regular fa-eye"></i> Runtime</label>
-		<input type="radio" id="radio-two" name="switch-one" value="no" />
-		<label for="radio-two"><i class="fa-solid fa-chevron-right fa-rotate-180"></i><i class="fa-solid fa-chevron-right"></i> Constructor</label>
-	</div>
-    </header>
     <div class="main__container">
-        <div class="calc__elements">
-            <div class="calc__input">
-                <input type="text">
-            </div>
-            <div class="calc__math">
-            
-            </div>
-            <div class="calc__numbers">
-
-            </div>
-            <button class="btn__calc">
-
-            </button>
+        <header class="header">
+            <div class="switch-field">
+            <input type="radio" id="radio-one" name="switch-one" value="yes" checked/>
+            <label for="radio-one"><i class="fa-regular fa-eye"></i> Runtime</label>
+            <input type="radio" id="radio-two" name="switch-one" value="no" />
+            <label for="radio-two"><i class="fa-solid fa-chevron-right fa-rotate-180"></i><i class="fa-solid fa-chevron-right"></i> Constructor</label>
         </div>
-        <div class="work__field">
-            <div class="canvas">
-
+        </header>
+        <div class="calculator">
+            <div class="calc__elements">
+                <div class="calc__screen">
+                    <p>0</p>
+                </div>
+                <div class="calc__math">
+                    
+                </div>
+                <div class="calc__numbers">
+                    
+                </div>
+                <button class="btn__calc">
+                    =
+                </button>
+            </div>
+            <div class="work__field">
+                <div class="canvas">
+                    <i class="fa-solid fa-grid-2-plus"></i>
+                    <span class="canvas__span1">Перетащите сюда</span> 
+                    <span class="canvas__span2">любой элеменет<br>из левой панели</span>
+                </div>
             </div>
         </div>
     </div>

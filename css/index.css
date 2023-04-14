@@ -1,2 +1,5 @@
+@import url(main.css);
 @import url(../css/header.css);
-@import url(../css/input.css);
+@import url(screen.css);
+@import url(done_button.css);
+@import url(work_field.css);

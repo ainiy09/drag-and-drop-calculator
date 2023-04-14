@@ -1,0 +1,8 @@
+.calc__screen {
+    width: 232px;
+    height: 52px;
+    left: 80px;
+    top: 110px;
+    border-radius: 6px;
+    font-size: 36px;
+}

@@ -1,0 +1,10 @@
+.calculator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__container{
+    position: relative;
+    width: 695px;
+    height: 640px;
+}
