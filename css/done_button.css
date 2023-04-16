@@ -1,4 +1,5 @@
 .btn__calc {
+    cursor: move;
     width: 232px;
     height: 64px;
     left: 80px;
