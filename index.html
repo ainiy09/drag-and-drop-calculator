@@ -34,19 +34,18 @@
       </header>
       <div class="calculator">
         <div class="calc__elements">
-          <div class="calc__screen">
-            <p class="screen__result"></p>
-            <button class="clean__btn">C</button>
-          </div>
-          <div class="calc__math"></div>
-          <div class="calc__numbers"></div>
-          <button class="btn__calc">=</button>
+            <div id="drag1" draggable="true" class="calc__screen">
+              <div class="screen__result">0</div>
+              <button class="clean__btn">C</button>
+            </div>
+          <div id="drag2" draggable="true" class="calc__math"></div>
+          <div id="drag3" draggable="true" class="calc__numbers"></div>
+          <button id="drag4" draggable="true" class="btn__calc">=</button>
         </div>
-        <div class="work__field">
-          <div class="canvas">
-            <i class="fa-solid fa-grid-2-plus"></i>
-            <span class="canvas__span1">Перетащите сюда</span>
-            <span class="canvas__span2"
+        <div id="drop" class="work__field">
+          <div class="work__field__text">
+            <span class="work__field__text__span1">Перетащите сюда<br></span>
+            <span class="work__field__text__span2"
               >любой элеменет<br />из левой панели</span
             >
           </div>
@@ -54,7 +53,7 @@
       </div>
     </div>
     <script src="./script/operators.js" defer></script>
-    <script src="./script/numbers.js"></script>
+    <script src="./script/numbers.js" defer></script>
     <script src="./script/index.js" defer></script>
   </body>
 </html>

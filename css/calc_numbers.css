@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .number{
     width: 72px;
     height: 48px;
@@ -22,5 +23,18 @@
     border-radius: 6px;
 }
 .number:hover {
-    border-color: #5D5FEF;;
+    border-color: #5D5FEF;
+}
+.number_0{
+    width: 152px;
+    height: 48px;
+    left: 80px;
+    top: 418px;
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+    grid-column: span 2;
+}
+.number_0:hover {
+    border-color: #5D5FEF;
 }
